@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container div{
+    border-radius: 10px;
+    background-color: #9f8e32;
+    border: 2px lightslategray solid;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    flex-direction: column;
+    transition: 0.2s;
+
+}
+
+.container div:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+    transition: 0.2s;
+
+
+
+}
+
+.container p{
+    margin: 0;
+
+}
+
+.add{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: 3px lightslategray solid;
+    border-radius: 8px;
+
+}
+
+.fondo-gris {
+
+    background: linear-gradient(to bottom, #efea0a, #ffffff) no-repeat fixed;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #71b332;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color: #47884b;
+}
+
+.button:active{
+    background-color: #104710;
+    transform: translateY(1px);
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: #FFCB05;
+    text-shadow:
+            2px 2px 0 #3B4CCA,
+            -1px -1px 0 #3B4CCA,
+            1px -1px 0 #3B4CCA,
+            -1px  1px 0 #3B4CCA,
+            1px  1px 0 #3B4CCA;
+    margin-bottom: 30px;
+    line-height: 1.3;
+
+}
+
