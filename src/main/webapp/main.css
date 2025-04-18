@@ -106,3 +106,27 @@
 
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.etiqueta {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3B4CCA;
+}
+
+.dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #3B4CCA;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 250px;
+}
+

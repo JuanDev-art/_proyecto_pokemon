@@ -24,7 +24,11 @@
         <a href="ListaPokemon" class="button">Listado de Pokémon</a>
         <!--Vamos a crear un listado de pokemon, que nos permita editarlos, crearlos, borrarlos, y editarlos-->
         <a href="${pageContext.request.contextPath}/entrenadores" class="button">Listado Entrenadores</a>
+        <!--Vamos a crear un asignador de pokemons a los entrenadores.-->
+        <a href="${pageContext.request.contextPath}/asignarPokemon" class="button">Asignar pokemon</a>
+
     </div>
+
 
 </a>
 </body>

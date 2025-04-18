@@ -18,7 +18,7 @@ public class AsignarPokemonContr extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+
 
         //Pido las dos listas, de entrenadores y de pokemons.
         try {
