@@ -44,6 +44,21 @@ public class BBDDConnector {
     }
     //6.Hago el getter para la conexión.
     public Connection GetConn(){
+
+        try{
+            //Creo una nueva conexión si la anterior está cerrada.
+            if (conn == null || conn.isClosed()){
+
+                conn = DriverManager.getConnection(JDBC_URL, USER, PASSWORD);
+
+            }
+
+        }catch (Exception e){
+
+            e.printStackTrace();
+
+
+        }
         return conn;
     }
 }

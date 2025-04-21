@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/main.css">
 </head>
 <body class="fondo-gris">
-<div class="center">
-    <h2>Asignar pokemon a entrenador</h2>
+<div class="fondo-gris">
+    <h2 class="center">Asignar pokemon a entrenador</h2>
 
     <form action="procesarAsignación" method="post" class="formulario">
         <label for="idEntrenador" class="etiqueta">Entrenador:</label>
