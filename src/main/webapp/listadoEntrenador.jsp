@@ -25,17 +25,17 @@
         <p>Nivel: <%= e.getNivel() %></p>
 
         <!-- Botón de Ver -->
-        <a href="entrenadores?accion=ver&id=<%= e.getIdEntrenador() %>">
+        <a href="entrenadores?action=ver&id=<%= e.getIdEntrenador() %>">
             <button>Ver</button>
         </a>
 
         <!-- Botón para Editar -->
-        <a href="entrenadores?accion=editar&id=<%= e.getIdEntrenador() %>">
+        <a href="entrenadores?action=editar&id=<%= e.getIdEntrenador() %>">
             <button>Editar</button>
         </a>
 
         <!-- Botón para borrar -->
-        <a href="entrenadores?accion=eliminar&id=<%= e.getIdEntrenador() %>">
+        <a href="entrenadores?action=eliminar&id=<%= e.getIdEntrenador() %>">
             <button>Borrar</button>
         </a>
     </div>
