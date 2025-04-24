@@ -16,7 +16,7 @@
     <body class="fondo-gris">
 
     <div class="center">
-        <h1>
+        <h1 id="titulo-neon">
             <%= "Bienvenido al mundo Pokémon" %>
         </h1>
     <br/>
@@ -31,5 +31,14 @@
 
 
 </a>
+    <!--Voy a utilizar JavaScrip, DOM-->
+    <script>
+        const titulo = document.getElementById("titulo-neon");
+        let visible = true;
+         setInterval(()=> {
+             visible = !visible;
+             titulo.style.opacity = visible ? "1" : "0.4";
+         }, 500);
+    </script>
 </body>
 </html>
