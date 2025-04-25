@@ -101,6 +101,7 @@ public class PokemonDAO {
         ps.setString(1, pokemon.getNombre());
         ps.setInt(2, pokemon.getAtaque());
         ps.setString(3, pokemon.getDescripcion());
+        ps.setInt(4, pokemon.getIdPokemons());
 
         int rows = ps.executeUpdate();
 
