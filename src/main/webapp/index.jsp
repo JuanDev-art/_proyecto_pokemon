@@ -30,7 +30,7 @@
     </div>
 
 
-</a>
+
     <!--Voy a utilizar JavaScrip, DOM-->
     <script>
         const titulo = document.getElementById("titulo-neon");
